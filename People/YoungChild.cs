@@ -5,18 +5,11 @@ using System.Text;
 
 namespace DependancyInversionFactory.People
 {
-    public class YoungChild : ISpeakableSportsPerson
+    public class YoungChild : IGreetablePerson
     {
         public int Age { get; set; }
         public string Name { get; set; }
-        public string FavouriteSports { get; set; }
-
-        public void SayFavouriteSports()
-        {
-            Console.WriteLine($"My Favourite Sport is {FavouriteSports}.");
-        }
-
-        public void SayHello()
+        public void Greet()
         {
             Console.WriteLine($"Hello! my name is {Name} and I'm {Age} years old.");
         }

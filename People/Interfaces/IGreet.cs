@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DependancyInversionFactory.People.Interfaces
 {
-    public interface ISpeakablePerson : IPerson, ISayHello
+    public interface IGreet
     {
+        public void Greet();
     }
 }

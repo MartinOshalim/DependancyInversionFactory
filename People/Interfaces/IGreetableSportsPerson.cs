@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DependancyInversionFactory.People.Interfaces
 {
-    public interface ISpeakableSportsPerson : ISpeakablePerson, IFavouriteSports
+    public interface IGreetableSportsPerson : IPlaySports, IGreetablePerson
     {
     }
 }

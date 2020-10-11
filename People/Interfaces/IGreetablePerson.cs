@@ -4,9 +4,7 @@ using System.Text;
 
 namespace DependancyInversionFactory.People.Interfaces
 {
-    public interface IFavouriteSports
+    public interface IGreetablePerson : IPerson, IGreet
     {
-        public string FavouriteSports { get; set; }
-        public void SayFavouriteSports();
     }
 }
